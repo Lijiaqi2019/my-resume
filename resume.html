@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zn">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<title>我的简历</title>
+		<script src="echarts.min.js"></script><!-- 引入 ECharts 文件 -->
+		<style>
+			* {
+				box-sizing: border-box;
+			}
+			body {
+				background: #98FB98;
+				margin: 20px 0;
+			}
+			artical {
+				width: 21cm;
+				min-height: 29.7cm;
+				background: #FFFFFF;
+				margin: 0 auto;
+				overflow: auto;
+				padding: lem;
+			}
+			h1,h4{
+				color:#006400;
+			}
+			section{
+				background-color:#90EE90;
+			}
+		</style>
+		<style media="print">
+			body {
+				margin:0;
+			}
+		</style>
+		<style>
+			.bio{
+				position:relative;
+			}
+			.bio img{
+				position:absolute;
+				top:0;
+				right:0;
+			}
+		</style>
+	</head>
+	<body>
+		<article>
+			<section class="bio">
+				<h1>李佳琦</h1>
+				<img src="./头像.jpg" alt="" width="100" height="100" />
+				<p>女┃21岁┃籍贯：河北承德┃现居地：石家庄<p>
+						<p>手机：15532104660┃微信：Mikasa┃邮箱：lijiaqi2019@126.com</p>
+			</section>
+			<section>
+				<h4>教育背景</h4>
+				<p>河北经贸大学 本科</p>
+				<p>2012届 数学类 信息与计算科学专业</p>
+				<p>主修课程：数学分析、高等代数、解析几何、概率论与数理统计、
+					C++程序设计、数学软件、运筹学、统计软件、多元统计分析等</p>
+			</section>
+			<section>
+				<h4>技能认证</h4>
+				<p>通用技能证书：英语四级、计算机office二级、普通话二级甲等、机动车驾驶证</p>
+			</section>
+			<section>
+				<h4>在校经历</h4>
+				<ul>
+					<li>参加信息素养大赛获校级奖项</li>
+					<li>有家教数学、物理经历，一年内帮助初二学生提升班级名次三十名</li>
+					<li>多次获得奖学金</li>
+					<li>参加校内暑期数学建模实习培训</li>
+					<li>参加零度倾斜动漫社团，有话剧表演经历</li>
+				</ul>
+			</section>
+			<div>
+				<h4>个人技能</h4>
+				<div id="main" style="width: 300px;height:300px;"></div>
+			</div>
+			<section>
+				<h4>兴趣爱好</h4>
+				<p>架子鼓、动漫</p>
+			</section>
+		</article>
+		<script src="https://cdn.bootcss.com/echarts/4.7.0/echarts.min.js"></script>
+		<!-- 引入 ECharts 文件 -->
+		<script src="./resume.js"></script>
+	</body>
+</html>
